@@ -1,12 +1,12 @@
 {
   "language": "Ngôn ngữ",
   "open": "📂 Mở PDF",
-  "merge": "＋ Thêm PDF",
+  "merge": "Thêm PDF",
   "save": "⬇ Xuất PDF",
   "pagesHeading": "Trang tài liệu",
   "prev": "← Trước",
   "next": "Sau →",
-  "addPage": "＋ Thêm trang trắng",
+  "addPage": "Thêm trang trắng",
   "deletePage": "🗑 Xóa trang",
   "rotateLeft": "↶ Xoay trái 90°",
   "rotateRight": "↷ Xoay phải 90°",
@@ -44,7 +44,7 @@
   "exportError": "Lỗi khi xuất PDF: {error}",
   "downloadAll": "pdf-da-chinh-sua.pdf",
   "downloadPage": "pdf-trang.pdf",
-  "newFile": "Dự án mới",
+  "newFile": "Tệp mới",
   "tabPages": "Xử lý trang",
   "tabContent": "Xử lý văn bản"
 }
