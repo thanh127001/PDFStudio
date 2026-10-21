@@ -43,5 +43,6 @@
   "exported": "PDF 已导出",
   "exportError": "导出 PDF 出错：{error}",
   "downloadAll": "已编辑.pdf",
-  "downloadPage": "单页.pdf"
+  "downloadPage": "单页.pdf",
+  "newFile": "＋ 新建空白 PDF"
 }
