@@ -1,12 +1,12 @@
 {
   "language": "语言",
   "open": "📂 打开 PDF",
-  "merge": "＋ 合并 PDF",
+  "merge": "＋ 添加 PDF",
   "save": "⬇ 导出 PDF",
   "pagesHeading": "文档页面",
   "prev": "← 上一页",
   "next": "下一页 →",
-  "addPage": "＋ 空白页",
+  "addPage": "＋ 添加空白页",
   "deletePage": "🗑 删除页面",
   "rotateLeft": "↶ 向左旋转 90°",
   "rotateRight": "↷ 向右旋转 90°",
@@ -44,7 +44,7 @@
   "exportError": "导出 PDF 出错：{error}",
   "downloadAll": "已编辑.pdf",
   "downloadPage": "单页.pdf",
-  "newFile": "＋ 新建空白 PDF",
+  "newFile": "新建项目",
   "tabPages": "页面处理",
   "tabContent": "文本与批注"
 }
