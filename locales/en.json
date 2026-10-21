@@ -7,7 +7,7 @@
   "prev": "← Previous",
   "next": "Next →",
   "addPage": "Add blank page",
-  "deletePage": "🗑 Delete page",
+  "deletePage": "Delete selected page",
   "rotateLeft": "↶ Rotate left 90°",
   "rotateRight": "↷ Rotate right 90°",
   "up": "↑ Move up",
@@ -49,5 +49,6 @@
   "tabContent": "Text & annotations",
   "reset": "Reset",
   "resetConfirm": "Reset the project? All current pages and edits will be deleted.",
-  "redo": "↷ Redo"
+  "redo": "↷ Redo",
+  "deletePageConfirm": "Are you sure you want to delete page {page}?"
 }
