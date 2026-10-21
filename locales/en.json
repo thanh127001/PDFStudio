@@ -44,5 +44,7 @@
   "exportError": "PDF export error: {error}",
   "downloadAll": "edited-pdf.pdf",
   "downloadPage": "pdf-page.pdf",
-  "newFile": "＋ New blank PDF"
+  "newFile": "＋ New blank PDF",
+  "tabPages": "Pages",
+  "tabContent": "Edit content"
 }
