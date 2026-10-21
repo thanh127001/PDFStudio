@@ -66,6 +66,7 @@ overlay.onpointerdown=e=>{if(!doc)return;overlay.setPointerCapture(e.pointerId);
 overlay.onpointermove=e=>{if(!gesture)return;const p=pt(e);if(gesture.type==='move'){move(selected,p.x-gesture.last.x,p.y-gesture.last.y);gesture.last=p}else if(gesture.a.type==='draw')gesture.a.points.push(p);else{gesture.a.x2=p.x;gesture.a.y2=p.y}drawOverlay()};overlay.onpointerup=()=>{gesture=null;if(doc)renderList()};
 $('imageFile').onchange=async e=>{const f=e.target.files[0];if(!f)return;const src=await new Promise((res,rej)=>{const r=new FileReader();r.onload=()=>res(r.result);r.onerror=rej;r.readAsDataURL(f)});const img=new Image();img.onload=()=>{imageData={src,img};tool='image';setTool();msg(t('imageReady'))};img.src=src;e.target.value=''};
 function setTool(){
+ $('ribbonOptions').hidden=!['text','draw','rect','highlight'].includes(tool);
  document.querySelectorAll('[data-tool]').forEach(b=>{const on=b.dataset.tool===tool;b.classList.toggle('active',on);b.classList.toggle('btn-primary',on);b.classList.toggle('btn-outline-secondary',!on)});
  document.querySelectorAll('[data-option]').forEach(el=>{el.hidden=!el.dataset.option.split(' ').includes(tool)&&!el.dataset.option.split(' ').includes('all')});
 }document.querySelectorAll('[data-tool]').forEach(b=>b.onclick=()=>{tool=b.dataset.tool;setTool()});
