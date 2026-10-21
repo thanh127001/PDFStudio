@@ -43,5 +43,6 @@
   "exported": "Đã xuất PDF",
   "exportError": "Lỗi khi xuất PDF: {error}",
   "downloadAll": "pdf-da-chinh-sua.pdf",
-  "downloadPage": "pdf-trang.pdf"
+  "downloadPage": "pdf-trang.pdf",
+  "newFile": "＋ Tạo PDF trắng"
 }
