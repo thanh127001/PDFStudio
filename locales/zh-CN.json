@@ -44,5 +44,7 @@
   "exportError": "导出 PDF 出错：{error}",
   "downloadAll": "已编辑.pdf",
   "downloadPage": "单页.pdf",
-  "newFile": "＋ 新建空白 PDF"
+  "newFile": "＋ 新建空白 PDF",
+  "tabPages": "页面处理",
+  "tabContent": "内容编辑"
 }
