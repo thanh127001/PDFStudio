@@ -46,5 +46,7 @@
   "downloadPage": "pdf-page.pdf",
   "newFile": "New file",
   "tabPages": "Pages",
-  "tabContent": "Text & annotations"
+  "tabContent": "Text & annotations",
+  "reset": "Reset",
+  "resetConfirm": "Reset the project? All current pages and edits will be deleted."
 }
