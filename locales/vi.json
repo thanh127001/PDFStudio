@@ -44,5 +44,7 @@
   "exportError": "Lỗi khi xuất PDF: {error}",
   "downloadAll": "pdf-da-chinh-sua.pdf",
   "downloadPage": "pdf-trang.pdf",
-  "newFile": "＋ Tạo PDF trắng"
+  "newFile": "＋ Tạo PDF trắng",
+  "tabPages": "Xử lý trang",
+  "tabContent": "Chỉnh sửa nội dung"
 }
