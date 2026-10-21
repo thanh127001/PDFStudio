@@ -12,7 +12,7 @@ pdfjsLib.GlobalWorkerOptions.workerSrc='https://cdnjs.cloudflare.com/ajax/libs/p
 
 // Translation files are loaded dynamically from locales/config.json.
 let translations={},languageConfig=null,currentLanguage='vi';
-function t(key,vars={}){let value=translations[key]??key;return value.replace(/\\{(\\w+)\\}/g,(_,name)=>String(vars[name]??''))}
+function t(key,vars={}){let value=translations[key]??key;return value.replace(/\{(\w+)\}/g,(_,name)=>String(vars[name]??''))}
 function applyLanguage(){document.documentElement.lang=currentLanguage;document.querySelectorAll('[data-i18n]').forEach(el=>{el.textContent=t(el.dataset.i18n)});if(!doc)$('empty').textContent=t('empty');else{renderList();updateStatus()}}
 function updateStatus(){if(!doc||!pages.length)return;const {width,height}=dims();$('status').textContent=t('pageStatus',{current:current+1,total:pages.length,width:Math.round(width),height:Math.round(height)})}
 async function changeLanguage(code){const entry=languageConfig.languages.find(l=>l.code===code);if(!entry)return;try{const response=await fetch(entry.file);if(!response.ok)throw Error(response.status);translations=await response.json();currentLanguage=code;$('language').value=code;applyLanguage()}catch(err){console.error(err);msg('Unable to load language: '+code)}}
