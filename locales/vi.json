@@ -7,7 +7,7 @@
   "prev": "← Trước",
   "next": "Sau →",
   "addPage": "Thêm trang trắng",
-  "deletePage": "🗑 Xóa trang",
+  "deletePage": "Xóa trang đang chọn",
   "rotateLeft": "↶ Xoay trái 90°",
   "rotateRight": "↷ Xoay phải 90°",
   "up": "↑ Chuyển lên",
@@ -49,5 +49,6 @@
   "tabContent": "Xử lý văn bản",
   "reset": "Đặt lại",
   "resetConfirm": "Bạn có chắc muốn đặt lại dự án? Tất cả các trang và chỉnh sửa hiện tại sẽ bị xóa.",
-  "redo": "↷ Làm lại"
+  "redo": "↷ Làm lại",
+  "deletePageConfirm": "Bạn có chắc muốn xóa trang {page}?"
 }
