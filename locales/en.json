@@ -28,7 +28,7 @@
   "sizeLabel": "Font size / stroke width",
   "colorLabel": "Color",
   "zoomLabel": "Zoom",
-  "undo": "↶ Undo last annotation",
+  "undo": "↶ Undo",
   "clear": "Clear page annotations",
   "tip": "Select a tool, then click or drag on the page. Use Select to reposition added objects. Click to place text. Annotations are embedded when exporting.",
   "defaultText": "New text",
@@ -48,5 +48,6 @@
   "tabPages": "Pages",
   "tabContent": "Text & annotations",
   "reset": "Reset",
-  "resetConfirm": "Reset the project? All current pages and edits will be deleted."
+  "resetConfirm": "Reset the project? All current pages and edits will be deleted.",
+  "redo": "↷ Redo"
 }
