@@ -1,12 +1,12 @@
 {
   "language": "Language",
   "open": "📂 Open PDF",
-  "merge": "＋ Merge PDF",
+  "merge": "＋ Add PDF",
   "save": "⬇ Export PDF",
   "pagesHeading": "Document pages",
   "prev": "← Previous",
   "next": "Next →",
-  "addPage": "＋ Blank page",
+  "addPage": "＋ Add Blank",
   "deletePage": "🗑 Delete page",
   "rotateLeft": "↶ Rotate left 90°",
   "rotateRight": "↷ Rotate right 90°",
@@ -44,7 +44,7 @@
   "exportError": "PDF export error: {error}",
   "downloadAll": "edited-pdf.pdf",
   "downloadPage": "pdf-page.pdf",
-  "newFile": "＋ New blank PDF",
+  "newFile": "New Project",
   "tabPages": "Pages",
   "tabContent": "Text & annotations"
 }
