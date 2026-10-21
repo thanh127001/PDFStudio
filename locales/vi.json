@@ -28,7 +28,7 @@
   "sizeLabel": "Cỡ chữ / độ dày nét",
   "colorLabel": "Màu",
   "zoomLabel": "Phóng to",
-  "undo": "↶ Hoàn tác nét cuối",
+  "undo": "↶ Hoàn tác",
   "clear": "Xóa chú thích trang",
   "tip": "Chọn công cụ rồi nhấp hoặc kéo trên trang. Công cụ Chọn cho phép kéo đối tượng đã thêm để đổi vị trí. Văn bản nhập vào được đặt tại điểm nhấp. Khi xuất PDF, các lớp chú thích sẽ được ghép vào tài liệu.",
   "defaultText": "Nội dung mới",
@@ -48,5 +48,6 @@
   "tabPages": "Xử lý trang",
   "tabContent": "Xử lý văn bản",
   "reset": "Đặt lại",
-  "resetConfirm": "Bạn có chắc muốn đặt lại dự án? Tất cả các trang và chỉnh sửa hiện tại sẽ bị xóa."
+  "resetConfirm": "Bạn có chắc muốn đặt lại dự án? Tất cả các trang và chỉnh sửa hiện tại sẽ bị xóa.",
+  "redo": "↷ Làm lại"
 }
