@@ -46,5 +46,7 @@
   "downloadPage": "pdf-trang.pdf",
   "newFile": "Tệp mới",
   "tabPages": "Xử lý trang",
-  "tabContent": "Xử lý văn bản"
+  "tabContent": "Xử lý văn bản",
+  "reset": "Đặt lại",
+  "resetConfirm": "Bạn có chắc muốn đặt lại dự án? Tất cả các trang và chỉnh sửa hiện tại sẽ bị xóa."
 }
